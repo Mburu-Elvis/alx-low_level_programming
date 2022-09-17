@@ -6,7 +6,7 @@
  * Description: Print alphabets
  * Return: 0
  */
-int main (void)
+int main(void)
 {
 	char c;
 
@@ -23,5 +23,5 @@ int main (void)
 		c++;
 	}
 	putchar('\n');
-	return(0);
+	return (0);
 }
