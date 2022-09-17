@@ -9,7 +9,6 @@
 int main(void)
 {
 	char c, d;
-	
 	c = 'a';
 	d = 'A';
 
