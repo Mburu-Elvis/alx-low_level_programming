@@ -1,7 +1,6 @@
 #include <stdio.h>
 
-
-/**i
+/**
  * main - main block
  * Description: 8-print_base16.c
  * Return: 0
