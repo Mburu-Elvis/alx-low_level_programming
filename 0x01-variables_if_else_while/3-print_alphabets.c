@@ -6,16 +6,19 @@
  * Description: Display alphabets
  * Return: 0
  */
-int main(void){
+int main(void)
+{
 	char c, d;
 	c = 'a';
 	d = 'A';
 
-	while ( c <= 'z' && d <= 'Z')
+	while ( c <= 'z' )
 	{
 		putchar(c);
 		c++;
-
+	}
+	while ( d <= 'Z' )
+	{
 		putchar(d);
 		d++;
 	}
