@@ -4,6 +4,11 @@
 /* more headers goes there */
 
 /* betty style doc for function main goes there */
+/**
+ * main - main block
+ * Description: Get a random number and check its last digit, compare it with 5
+ * Return: 0
+ */
 int main(void)
 {
 	int n;
