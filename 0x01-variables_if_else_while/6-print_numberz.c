@@ -2,8 +2,8 @@
 
 /**
  * main - main block
- * Description - typecasting
- * Return - 0
+ * Description:  typecasting
+ * Return: 0
  */
 int main(void)
 {
