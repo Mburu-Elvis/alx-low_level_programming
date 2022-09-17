@@ -1,25 +1,23 @@
 #include <stdio.h>
 
 /**
- * main - main block
- * Description: 8-print_base16.c
- * Return: 0
+ * main - Entry point
+ * Return:0
  */
+
 int main(void)
 {
-	int i = 0;
-	char c = 'a';
-	
-	while (i <= 9)
+	int i, y;
+
+	for (i = 0; i < 10; i++)
 	{
-		putchar(i + '0');
-		i++;
+		putchar (i + '0');
 	}
-	while (c <= 'f')
+	for (y = 'a'; y <= 'f'; y++)
 	{
-		putchar(c);
-		c++;
+		putchar (y);
 	}
-	putchar('\n');
-	return (0);
+
+putchar('\n');
+return (0);
 }
