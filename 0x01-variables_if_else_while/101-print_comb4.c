@@ -1,4 +1,6 @@
 #include <stdio.h>
+/* more headers goes there */
+/* betty style doc for function main goes there */
 /**
  * main - Entry point
  *
@@ -6,34 +8,43 @@
  */
 int main(void)
 {
-int x, y, z;
+	int p = 48, q = 48, y = 48, x = 49;
 
-for (x = 48; x <= 57; x++)
-{
-for (y = 48; y <= 57; y++)
-{
-for (z = 48; z <= 57; z++)
-{
-if (x == y || x == z || y == z || y <= x || z <= y)
-{
-}
-else
-{
-putchar(x);
-putchar(y);
-putchar(z);
-if (x == 55 && y == 56 && z == 57)
-{
-}
-else
-{
-putchar(44);
-putchar(' ');
-}
-}
-}
-}
-}
-putchar('\n');
-return (0);
+	while (p < 58)
+	{
+		while (q < 58)
+		{
+			while (y < 58)
+			{
+				while (x < 58)
+				{
+					putchar(p);
+					putchar(q);
+					putchar(' ');
+					putchar(y);
+					putchar(x);
+					if (!(p == 57 &&
+						q == 56 &&
+						y == 57 &&
+						x == 57))
+					{
+						putchar(',');
+						putchar(' ');
+					}
+					x++;
+				}
+				y++;
+				x = 48;
+			}
+			q++;
+			q = p;
+			x = q + 1;
+		}
+		p++;
+		q = 48;
+		y = p;
+		x = q+ 1;
+	}
+	putchar('\n');
+	return (0);
 }
