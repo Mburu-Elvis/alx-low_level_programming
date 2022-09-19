@@ -21,7 +21,7 @@ int main(void)
 	x = &n;
 
 	printf("n=%d", n);
-	reset_to_98(int *n);
+	reset_to_98(x);
 	printf("n=%d", n);
 
 	return (0);
