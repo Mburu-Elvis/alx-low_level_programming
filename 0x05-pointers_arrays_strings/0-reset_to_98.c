@@ -1,12 +1,12 @@
-#include "main.c"
+#include "main.h"
 
-void reset_to_98(int *x)
-{
-	*x = 98;
-}
 /**
- * main - check the code for Holberton School students.
- *
- * Return: Always 0.
+ * reset_to_98 - function that takes a pointer to an integer parameter
+ * @n: integer pointer
+ * Return: 0 Success
  */
 
+void reset_to_98(int *n)
+{
+	*n = 98;
+}
