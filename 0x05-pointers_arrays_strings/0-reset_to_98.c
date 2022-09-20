@@ -1,28 +1,12 @@
-#include <stdio.h>
-#include <stdlib.h>
+#include "main.c"
 
+void reset_to_98(int *x)
+{
+	*x = 98;
+}
 /**
- * main - main block
+ * main - check the code for Holberton School students.
  *
- * Return: 0
+ * Return: Always 0.
  */
-void reset_to_98(int *n)
-{
-	*n = 98;
-}
 
-
-int main(void)
-{
-	int n;
-	int *x;
-
-	n = 98;
-	x = &n;
-
-	printf("n=%d", n);
-	reset_to_98(x);
-	printf("n=%d", n);
-
-	return (0);
-}
