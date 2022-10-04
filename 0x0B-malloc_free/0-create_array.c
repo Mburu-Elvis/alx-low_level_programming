@@ -47,7 +47,7 @@ int main(void)
 		printf("Failed to allocate memory\n");
 		return (1);
 	}
-	simple_print_buffer(buffer, 98);
+	create_array(buffer, 98);
 	free(buffer);
 	return (0);
 }
