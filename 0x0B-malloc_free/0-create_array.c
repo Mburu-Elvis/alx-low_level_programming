@@ -8,7 +8,7 @@
  * @c: the size to be assgned to the address
  */
 
-void simple_print_buffer(unsigned int size, *char c)
+void simple_print_buffer(unsigned int size, char *c)
 {
 	unsigned int i;
 
