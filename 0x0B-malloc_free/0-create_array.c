@@ -3,51 +3,28 @@
 #include <stdlib.h>
 
 /**
- * array of characters
- * @size: the size of the memory to print
- * @c: the size to be assgned to the address
+ * create_array - creates an array of chars
+ * @size: size of an array
+ * @c: pointer of memory location
+ *
+ * Return: pointer of an array of chars
  */
 
-void simple_print_buffer( char *buffer, unsigned int size)
+char *create_array(unsigned int size, char c)
 {
+	char *ch;
 	unsigned int i;
 
-	i = 0;
-	while (i < size)
-	{
-		if (i % 10)
-		{
-			printf(" ");
-		}
+	if (size == 0)
+		return (NULL);
 
-		if (!(i % 10) && i)
-		{
-			printf("\n");
-		}
-		printf("0x%02x", buffer[i]);
-		i++;
-	}
-	printf("\n");
-	
-}
+	ch = malloc(sizeof(c) * size);
 
-/**
- * main - creates an array of chars and initialized
- *
- * Return: 0.
- */
+	if (ch == NULL)
+		return (NULL);
 
-int main(void)
-{
-	char *buffer;
+	for (i = 0; i < size; i++)
+		ch[i] = c;
 
-	buffer = create_array(98, 'H');
-	if (buffer == NULL)
-	{
-		printf("Failed to allocate memory\n");
-		return (1);
-	}
-	create_array(buffer, 98);
-	free(buffer);
-	return (0);
+	return (ch);
 }
