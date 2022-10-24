@@ -6,22 +6,14 @@
  * Return: no return.
  */
 
-
-
 void free_list(list_t *head)
 {
-	list_t *current_node;
+	list_t *current;
 
-	while ((current_node = head) != NULL)
-
+	while ((current = head) != NULL)
 	{
-
 		head = head->next;
-
-		free(current_node->str);
-
-		free(current_node);
-
+		free(current->str);
+		free(current);
 	}
 }
-Footer
