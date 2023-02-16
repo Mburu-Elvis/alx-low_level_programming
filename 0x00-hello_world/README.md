@@ -5,3 +5,6 @@
 
 2. 1-compiler
 - a script that compiles a C file but does not link
+
+3. 2-assembler
+- a cript that generates the assembly code of a C file
