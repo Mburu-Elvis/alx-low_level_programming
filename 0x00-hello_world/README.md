@@ -8,3 +8,6 @@
 
 3. 2-assembler
 - a cript that generates the assembly code of a C file
+
+4. 3-assembler
+- a script that compiles a C file and create an executable named cisfun
