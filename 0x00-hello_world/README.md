@@ -12,5 +12,8 @@
 4. 3-assembler
 - a script that compiles a C file and create an executable named cisfun
 
-5. 4-pust.c
+5. 4-puts.c
 - a script that prints exactly "Programming is like building a multilingual puzzle
+
+6. 5-printf.c
+- print a string using printf function
