@@ -17,3 +17,6 @@
 
 6. 5-printf.c
 - print a string using printf function
+
+7. 6-size.c
+- a program that prints the size of various data types
