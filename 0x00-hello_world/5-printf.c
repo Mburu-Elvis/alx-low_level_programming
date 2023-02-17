@@ -4,7 +4,7 @@
  * main - main function of the program
  *
  * Description: print a string of texts
- * Return: 
+ * Return: 0.
  */
 int main(void)
 {
