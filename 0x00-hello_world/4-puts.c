@@ -1,7 +1,10 @@
 #include <stdio.h>
 
 /**
- * puts
+ * main - main function of the program
+ *
+ * Description: print a string
+ * Return: 0.
  */
 int main()
 {
