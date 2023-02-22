@@ -27,3 +27,7 @@
 - Returns 1 if number > 0
 - Returns 0 if number is 0
 - Returns -1 if number < 0
+
+7. **6-abs.c**
+- A function that completes the absolute value of an integer
+
