@@ -21,3 +21,9 @@
 - a functions that checks for alphabetic character
 - Return 1 if a letter, lower or upper
 - Return 0 if otherwise
+
+6. **5-sign.c**
+- a function that prints the sign of a numbet
+- Returns 1 if number > 0
+- Returns 0 if number is 0
+- Returns -1 if number < 0
