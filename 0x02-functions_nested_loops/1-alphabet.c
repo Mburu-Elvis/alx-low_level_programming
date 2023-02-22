@@ -1,5 +1,11 @@
 #include "main.h"
 
+/**
+ * print_alphabet - prints alphabets in lower case
+ *
+ * Description: None
+ * Return: None
+ */
 void print_alphabet(void)
 {
 	int c;
