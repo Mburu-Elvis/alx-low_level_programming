@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * _islower(int c) - checking the case of a character
+ * _islower - checking the case of a character
  * @c: the character being evaluated
  *
  * Description: checking if a character is lower/higher
