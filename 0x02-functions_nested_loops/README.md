@@ -7,3 +7,7 @@
 2. **1-alphabet.c**
 - a function that prints the alphabet in lowercase, followed by a new line
 - using _putchar only (twice)
+
+3. **2-print_alphabet_x10.c**
+- a function that prints the alphabets a-z
+- the alphabets are printed 10 times
