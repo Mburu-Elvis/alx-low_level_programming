@@ -33,3 +33,6 @@
 
 8. **7-print_last_digit.c**
 - prints the last digit of a number
+
+9. **8-24_hours.c**
+- prints every minute of the day
