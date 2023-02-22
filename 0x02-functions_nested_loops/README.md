@@ -16,3 +16,8 @@
 - a function that checks for lowercase character
 - Returns 1 if character is lower case
 - Returns 0 if character is Upper case
+
+5. **4-isalpha.c**
+- a functions that checks for alphabetic character
+- Return 1 if a letter, lower or upper
+- Return 0 if otherwise
