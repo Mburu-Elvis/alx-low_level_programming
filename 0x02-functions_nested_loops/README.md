@@ -31,3 +31,5 @@
 7. **6-abs.c**
 - A function that completes the absolute value of an integer
 
+8. **7-print_last_digit.c**
+- prints the last digit of a number
