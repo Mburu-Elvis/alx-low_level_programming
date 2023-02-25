@@ -38,6 +38,7 @@
 - prints every minute of the day
 
 10. **9-times_tables.c**
+- a function that prints 9 times table startung from 0
 
 11. **10-add.c**
 - a function that adds two integers returning the sum
