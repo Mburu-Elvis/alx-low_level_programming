@@ -42,3 +42,6 @@
 
 11. **10-add.c**
 - a function that adds two integers returning the sum
+
+12. **11-print_to_98.c**
+- a functions that prints all natural numbers from from n to 98, followed by a new line
