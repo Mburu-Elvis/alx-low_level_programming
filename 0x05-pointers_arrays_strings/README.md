@@ -15,3 +15,6 @@
 
 4. ***3-puts.c***
 - a function that prints a string, followed by a newline
+
+5. ***4-print_rev.c***
+- a funtion that prints a string in reverse orede, followed by a newline
