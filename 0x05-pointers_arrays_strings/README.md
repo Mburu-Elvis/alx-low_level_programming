@@ -9,3 +9,6 @@
 
 2. ***1-swap.c***
 - a function that swaps the values of two integers
+
+3. ***2-strlen.c***
+- a function that returns the lengthof a string
