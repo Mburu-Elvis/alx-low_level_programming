@@ -12,3 +12,6 @@
 
 3. ***2-strlen.c***
 - a function that returns the lengthof a string
+
+4. ***3-puts.c***
+- a function that prints a string, followed by a newline
