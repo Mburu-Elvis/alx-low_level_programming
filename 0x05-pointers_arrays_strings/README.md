@@ -18,3 +18,9 @@
 
 5. ***4-print_rev.c***
 - a funtion that prints a string in reverse orede, followed by a newline
+
+6. ***5-rev_string.c***
+- a function that reverses a string
+
+7. ***6-puts2.c***
+- a function that prints a every character in a string followed by a newline
