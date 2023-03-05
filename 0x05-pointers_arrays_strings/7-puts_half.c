@@ -10,30 +10,16 @@
 void puts_half(char *str)
 {
 	int count = 0;
-	int half;
 
 	while (str[count] != '\0')
 	{
 		count++;
 	}
-	count--;
-	if ((count % 2) == 0)
+	count++;
+	for (count /= 2; str[count] != '\0'; count++)
 	{
-		half = (count / 2);
-	}
-	else if (count == 0)
-	{
-		_putchar('\0');
-		half = 0;
-	}
-	else
-	{
-		half = ((count - 1) / 2) + 1;
-	}
-	while (str[half] != '\0'  && half != 0)
-	{
-		_putchar(str[half]);
-		half++;
+		_putchar(str[count]);
+
 	}
 	_putchar('\n');
 }
