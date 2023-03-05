@@ -30,3 +30,6 @@
 
 9. ***8-print_array.c***
 - a function that prints n elements of an array of integers, followed by anewline
+
+10. ***9-strcpy.c***
+- a function that copies the string pointed to by src to dest
