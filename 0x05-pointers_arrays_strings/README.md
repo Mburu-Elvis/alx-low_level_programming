@@ -24,3 +24,9 @@
 
 7. ***6-puts2.c***
 - a function that prints a every character in a string followed by a newline
+
+8. ***7-puts_half***
+- a function that prints half of a string followed by a newline
+
+9. ***8-print_array.c***
+- a function that prints n elements of an array of integers, followed by anewline
