@@ -3,7 +3,7 @@
 /**
  * reverse_array -  a function that reverses the array contents
  * @a: array pointer;
- * n: no of elements;
+ * @n: number of elements;
  *
  * Description: a function that reverses array a with n elements
  * Return: None
