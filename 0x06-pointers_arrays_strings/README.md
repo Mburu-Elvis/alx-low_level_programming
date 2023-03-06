@@ -12,3 +12,6 @@
 
 4. ***3-strcmp.c***
 - a function that compares two strings for equality
+
+5. ***4-rev_array.c***
+- a function that reverses the content of an array of integers
