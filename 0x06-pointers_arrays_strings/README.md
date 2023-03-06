@@ -9,3 +9,6 @@
 
 3. ***2-strncpy.c***
 - a function that copies n characters of a string to another string
+
+4. ***3-strcmp.c***
+- a function that compares two strings for equality
