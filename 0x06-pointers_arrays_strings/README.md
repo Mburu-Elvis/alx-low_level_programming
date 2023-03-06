@@ -6,3 +6,6 @@
 
 2. ***1-strncat.c***
 - a function that concatenates two strings wheresrc contains n or more bytes
+
+3. ***2-strncpy.c***
+- a function that copies n characters of a string to another string
