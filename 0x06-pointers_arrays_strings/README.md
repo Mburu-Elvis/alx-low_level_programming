@@ -3,3 +3,6 @@
 
 1. ***0-strcat.c***
 - a function that concatenates two strings
+
+2. ***1-strncat.c***
+- a function that concatenates two strings wheresrc contains n or more bytes
