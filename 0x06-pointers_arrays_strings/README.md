@@ -15,3 +15,6 @@
 
 5. ***4-rev_array.c***
 - a function that reverses the content of an array of integers
+
+6. ***5-string_toupper.c***
+-  function that changes all lowercase letters to uppercase in a string
