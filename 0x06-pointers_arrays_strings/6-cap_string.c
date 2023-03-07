@@ -13,7 +13,7 @@ char *cap_string(char *c)
 
 	while (c[i] != '\0')
 	{
-		if (i == 0 || c[i - 1] == 32)
+		if (i == 0 || c[i - 1] == 32 || c[i - 1] == 9 || c[i - 1] == 10)
 		{
 			if (c[i] >= 97 && c[i] <= 122)
 			{
