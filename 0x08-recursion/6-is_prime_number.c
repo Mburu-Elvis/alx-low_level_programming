@@ -9,7 +9,7 @@
  */
 int prime(int n, int c)
 {
-    if (c*c > n)
+    if (c * c > n)
     {
         return 1;
     }
@@ -17,7 +17,7 @@ int prime(int n, int c)
     {
         return 0;
     }
-    return prime(n, c+1);
+    return prime(n, c + 1);
 }
 /**
  * is_prime_number - check if a number is prime
