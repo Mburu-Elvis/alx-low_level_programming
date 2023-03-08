@@ -12,3 +12,6 @@
 
 3. ***2-strlen_recursion.c***
 - a function that return the length of a string
+
+4. ***3-factorial.c***
+-  a function that that return the factorial of a number
