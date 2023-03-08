@@ -18,3 +18,5 @@
 
 5. ***4-pow_factorial.c***
 - a function that returns the power of a number given the number and power number
+6. ***5-sqrt_recursion.c***
+- a function that return the square root of a natural number
