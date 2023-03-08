@@ -15,3 +15,6 @@
 
 4. ***3-factorial.c***
 -  a function that that return the factorial of a number
+
+5. ***4-pow_factorial.c***
+- a function that returns the power of a number given the number and power number
