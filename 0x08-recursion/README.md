@@ -9,3 +9,6 @@
 
 2. ***1-print_rev_recursion.c****
 - a function that prints a string in reversed order
+
+3. ***2-strlen_recursion.c***
+- a function that return the length of a string
