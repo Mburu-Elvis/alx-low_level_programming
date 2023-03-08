@@ -17,7 +17,7 @@ int prime(int n, int c)
 	{
 		return (0);
 	}
-	return prime(n, c + 1);
+	return (prime(n, c + 1));
 }
 /**
  * is_prime_number - check if a number is prime
@@ -29,7 +29,7 @@ int is_prime_number(int n)
 {
 	if (n < 2)
 	{
-		return 0;
+		return (0);
 	}
-	return prime(n, 2);
+	return (prime(n, 2));
 }
