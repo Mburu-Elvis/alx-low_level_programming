@@ -4,20 +4,17 @@
  * powr - returns the natural squareroot of a number
  * @n: input number
  * @c: iterator
+ * Return: square root
  */
 int powr(int n, int c)
 {
-	if (n % c == 0)
+	if (c % (n / c) == 0)
 	{
 		if (c * (n / c) == n)
-		{
 			return (c);
-		}
 		else
-		{
 			return (-1);
-		}
-	}	
+	}
 	return (0 + powr(n, c + 1));
 }
 /**
