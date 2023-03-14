@@ -13,3 +13,6 @@ This directory covers projects around argc and argv arguments
 
 3. **2-args.c**
 - A program that prints all arguments it receives
+
+4. **3-mul.c**
+- A program that multiplies two numbers
