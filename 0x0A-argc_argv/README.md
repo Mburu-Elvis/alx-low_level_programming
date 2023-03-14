@@ -10,3 +10,6 @@ This directory covers projects around argc and argv arguments
 
 2. **1-args.c**
 - A program that prints the number of arguments passed into it
+
+3. **2-args.c**
+- A program that prints all arguments it receives
