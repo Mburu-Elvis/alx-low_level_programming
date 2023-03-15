@@ -6,3 +6,6 @@
 
 2. **1-strdup.c**
 - a function that returns a pointer to a newly allocated space in memory, which contains a copy of a given string as a parameter
+
+3. **2-str_concat.c**
+- a function that concatenates two strings
