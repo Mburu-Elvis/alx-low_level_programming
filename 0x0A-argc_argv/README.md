@@ -16,3 +16,6 @@ This directory covers projects around argc and argv arguments
 
 4. **3-mul.c**
 - A program that multiplies two numbers
+
+5. **4-add.c**
+- A program that adds positive numbers
