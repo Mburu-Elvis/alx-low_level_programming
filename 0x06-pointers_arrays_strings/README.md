@@ -24,3 +24,6 @@
 
 8. ***7-leet.c***
 - a function that encodes a string
+
+9. ***100-rot13.c***
+- a function that rotates a string
