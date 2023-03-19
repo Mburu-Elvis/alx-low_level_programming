@@ -21,3 +21,6 @@
 
 7. ***6-cap_string.c***
 - a function thar capitalizes all words of a string
+
+8. ***7-leet.c***
+- a function that encodes a string
