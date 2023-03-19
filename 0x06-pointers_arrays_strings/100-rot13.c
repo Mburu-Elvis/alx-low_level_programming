@@ -7,17 +7,24 @@
  * Description: encode string c using rot13
  * Return: encoded string
  */
-char *rot13(char *c)
+char *rot13(char *s)
 {
-	int i;
+	int count = 0, i;
+	char alphabet[] = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ";
+	char rot13[] = "nopqrstuvwxyzabcdefghijklmNOPQRSTUVWXYZABCDEFGHIJKLM";
 
-	for (i = 0; c[i] != '\0'; i++)
+	while (*(s + count) != '\0')
 	{
-		if ((c[i] >= 110 && c[i] <= 122) || (c[i] >= 78 && c[i] <= 90))
-			c[i] = c[i] - 13;
-		else if ((c[i] >= 97 && c[i] <= 109) || (c[i] >= 65 && c[i] <= 77))
-			c[i] = c[i] + 13;
+		for (i = 0; i < 52; i++)
+		{
+			if (*(s + count) == alphabet[i])
+			{
+				*(s + count) = rot13[i];
+				break;
+			}
+		}
+		count++;
 	}
-	c[i] = '\0';
-	return (c);
+
+	return (s);
 }
