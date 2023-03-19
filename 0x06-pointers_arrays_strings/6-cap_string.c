@@ -20,12 +20,11 @@ char *cap_string(char *c)
 			{
 				if (*(c + i) >= 97 && *(c + 1) <= 122)
 				{
-					if (c[i - 1] == 9)
-						c[i - 1] = 32;
 					*(c + i) = c[i] - 32;
 				}
 			}
 		}
 	}
+	c[i] = '\0';
 	return (c);
 }
