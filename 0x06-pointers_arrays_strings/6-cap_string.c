@@ -9,27 +9,19 @@
  */
 char *cap_string(char *c)
 {
-	int low = 65, i = 0, diff;
+	int i, j;
+	int arr[13] = {32, 9, 10, 44, 59, 46, 33, 63, 34, 40, 41, 123, 125};
 
-	while (c[i] != '\0')
+	for (i = 0; c[i] != '\0'; i++)
 	{
-		if (i == 0 || c[i - 1] == 32 || c[i - 1] == 9 || c[i - 1] == 10)
+		for (j = 0; j < 13; j++)
 		{
-			if (c[i] >= 97 && c[i] <= 122)
+			if (c[i - 1] == arr[j])
 			{
-				diff = c[i] - 97;
-				c[i] = low + diff;
-			}
-			else
-			{
-				c[i] = c[i];
+				if (*(c + i) >= 97 && *(c + 1) <= 122)
+					*(c + i) = c[i] - 32;
 			}
 		}
-		else
-		{
-			c[i] = c[i];
-		}
-		i++;
 	}
 	return (c);
 }

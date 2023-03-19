@@ -18,3 +18,6 @@
 
 6. ***5-string_toupper.c***
 -  function that changes all lowercase letters to uppercase in a string
+
+7. ***6-cap_string.c***
+- a function thar capitalizes all words of a string
