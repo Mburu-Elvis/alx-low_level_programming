@@ -12,3 +12,6 @@
 
 4. ***3-function_like_macro.h***
 - a function-like macro ABS
+
+5. ***4-sum.h***
+- a function-like macro SUM(x, y) that calculates the sum of x and y
