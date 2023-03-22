@@ -7,3 +7,6 @@
 
 2. ***1-init_dog.c***
 - a function that initialize a variable of type struct dog
+
+3. ***2-print_dog.c***
+- a fuction that prints a struct dog
