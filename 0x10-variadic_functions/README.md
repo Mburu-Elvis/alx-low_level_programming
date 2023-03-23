@@ -6,3 +6,6 @@ variadic functions are functions that take a variable number of arguments
 1. ***0-sum_them_all.c***
 - a functions that adds all the number of integer arguments from index 1<br/>
  through n where n is the number of arguments.
+
+2. ***1-print_numbers.c***
+- a function that prints numbers followed by a newline
