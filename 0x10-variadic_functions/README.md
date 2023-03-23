@@ -9,3 +9,6 @@ variadic functions are functions that take a variable number of arguments
 
 2. ***1-print_numbers.c***
 - a function that prints numbers followed by a newline
+
+3. ***2-print_strings.c***
+- a function that prints strings, followed by a new line
