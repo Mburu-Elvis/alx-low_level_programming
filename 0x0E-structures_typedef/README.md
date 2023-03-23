@@ -13,3 +13,6 @@
 
 4. ***4-newdog.c***
 - a function that creates a new dog
+
+5. ***5-free_dog.c***
+- a  function that free mem space allocated to dog
