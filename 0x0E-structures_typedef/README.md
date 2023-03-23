@@ -10,3 +10,6 @@
 
 3. ***2-print_dog.c***
 - a fuction that prints a struct dog
+
+4. ***4-newdog.c***
+- a function that creates a new dog
