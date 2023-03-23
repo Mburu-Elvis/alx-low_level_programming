@@ -30,11 +30,11 @@ dog_t *new_dog(char *name, float age, char *owner)
 	p_dog->owner = malloc(lowner + 1);
 	for (i = 0; i < lname; i++)
 		p_dog->name[i] = name[i];
-	p_dog->name = '\0';
+	p_dog->name[lname] = '\0';
 	p_dog->age = age;
 	for (j = 0; j < lowner; j++)
 		p_dog->owner[j] = owner[j];
-	p_dog->owner[j] = '\0';
+	p_dog->owner[lowner] = '\0';
 
 	return (p_dog);
 }
