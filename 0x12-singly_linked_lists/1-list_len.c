@@ -15,12 +15,12 @@ size_t list_len(const list_t *h)
 	{
 		if (h->str != NULL && h->len != 0)
 		{
-			n = 2;
+			n += 2;
 			break;
 		}
 		else
 		{
-			n = 1;
+			n += 1;
 			break;
 		}
 	}
