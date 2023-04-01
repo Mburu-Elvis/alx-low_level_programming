@@ -3,7 +3,7 @@
 #include <string.h>
 #include <stdlib.h>
 
-/**
+/*
  * add_node - add a node to a list
  * @head: a pointer to the new head
  * @str: the str element in a node
@@ -23,9 +23,11 @@ list_t *add_node(list_t **head, const char *str)
 	new->str = strdup(str);
 	for (; str[n] != '\0'; n++)
 	{}
-	n--;
 	new->len = n;
 	new->next = *head;
 	*head = new;
-	return (*head);
+	if (*head == new)
+		return (*head);
+	else
+		return (NULL);
 }
