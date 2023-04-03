@@ -8,3 +8,5 @@ Singly linked list projects
 2. **1-listint_len.c**
 - a function that return the number of nodes in a list
 
+3. **2-add_nodeint.c**
+- a function to add a new node at the beginning of a list
