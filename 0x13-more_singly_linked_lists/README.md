@@ -19,3 +19,6 @@ Singly linked list projects
 
 6. **5-free_listint2.c**
 - a function that frees a listinit_t list
+
+7. **6-pop_listint.c**
+-  delete a node
