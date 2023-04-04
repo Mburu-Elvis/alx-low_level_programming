@@ -14,5 +14,8 @@ Singly linked list projects
 4. **3-add_nodeint_end.c**
 - a function to add a node form the end of the list
 
-5. **4-free_list.c**
+5. **4-free_listint.c**
 - a function that frees a listint_t list
+
+6. **5-free_listint2.c**
+- a function that frees a listinit_t list
