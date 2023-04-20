@@ -1,4 +1,4 @@
-#include "finction_pointers.h"
+#include "function_pointers.h"
 
 /**
  * array_iterator - execute a function given as a parameter
