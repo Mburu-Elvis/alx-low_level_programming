@@ -11,3 +11,5 @@ Some projects/functions revolving around variadic functions
 - a function that returns the sum of all its parameters.
 - the number of parameters is not specified thus we opt to use variadic functions
 
+1. **1-print_numbers.c**
+- a function that prints numbers followed by a newline
