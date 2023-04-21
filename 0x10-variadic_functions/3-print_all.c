@@ -8,12 +8,15 @@
 void print_all(const char * const format, ...)
 {
 	va_list print;
-	int i = 0;
+	int i = 0, len = 0, flag;
 	char *ptr;
 
+	while (format[len] != '\0')
+		len++;
 	va_start(print, format);
-	while (format[i] != '\0')
+	while (format != NULL && i < len)
 	{
+		flag = 1;
 		switch (format[i])
 		{
 			case 'c':
@@ -27,18 +30,22 @@ void print_all(const char * const format, ...)
 				break;
 			case 's':
 			{
-				ptr = va_arg(print, char *);
+				ptr = va_arg(print, char*);
 				if (ptr == NULL)
-					printf("%s", "(nil)");
-				else
-					printf("%s", ptr);
+					ptr = "(nil)";
+				printf("%s", ptr);
 				break;
 			}
+			default:
+				flag = 0;
+				break;
 		}
-		if (format[i + 1] != '\0')
+		if (i < (len - 1) && flag == 1)
+		{
 			printf(", ");
+		}
 		i++;
 	}
-	printf("\n");
 	va_end(print);
+	printf("\n");
 }
