@@ -3,7 +3,7 @@
 /**
 * add_node_end - function to add a node at the end of the list
 * @head: the beginning of the list
-* @ str: character pointer
+* @str: character pointer
 *
 * Return: pointer to the head of the list
 */
