@@ -11,3 +11,7 @@ linked lists project showing different use cases odf the lists
 2. **1-listint_len.c**
 - a function that returns the number of elements in a linked list
 
+3. **2-add_nodeint.c**
+- a function that adds a new node at the beginning of a listint_t
+- return the address of the new element or NULL if it failed
+
