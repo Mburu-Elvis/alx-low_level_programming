@@ -21,3 +21,8 @@ linked lists project showing different use cases odf the lists
 
 5. **4-free_list.c**
 -  a function that frees a listint_t list
+
+6. **5-free_list2.c**
+-  a function that frees the listint_t list
+- it sets the head to NULL
+
