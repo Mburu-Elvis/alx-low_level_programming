@@ -30,3 +30,6 @@ linked lists project showing different use cases odf the lists
 - a function that deletes the head node of a listint_t linked list
 - returns the head node's data (n)
 
+8. **7-get_nodeint.c**
+- a function that returns the nth node of a listint_t linked list
+- returns the address of the node, if node does not exist return NULL
