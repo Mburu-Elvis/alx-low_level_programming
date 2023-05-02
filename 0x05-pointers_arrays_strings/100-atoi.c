@@ -20,7 +20,6 @@ int _atoi(char *s)
 			number = number * 10 + (*s - '0');
 		else if (number > 0)
 		{
-			number  = 0;
 			break;
 		}
 		s++;
