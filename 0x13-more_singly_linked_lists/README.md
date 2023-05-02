@@ -26,3 +26,7 @@ linked lists project showing different use cases odf the lists
 -  a function that frees the listint_t list
 - it sets the head to NULL
 
+7. **6-pop_listint.c**
+- a function that deletes the head node of a listint_t linked list
+- returns the head node's data (n)
+
