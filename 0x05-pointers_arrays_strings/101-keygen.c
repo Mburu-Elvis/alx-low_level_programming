@@ -15,6 +15,7 @@ int main(int argc, char *argv[])
 	const char valid_chars[] =
 		"abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789";
 	char password[PASSWORD_LENGTH + 1];
+	int i;
 
 	srand(time(NULL));
 
@@ -23,7 +24,7 @@ int main(int argc, char *argv[])
 		return (0);
 	}
 
-	for (int i = 0; i < PASSWORD_LENGTH; i++) {
+	for (i = 0; i < PASSWORD_LENGTH; i++) {
 		password[i] = valid_chars[rand() % (sizeof(valid_chars) - 1)];
 	}
 
