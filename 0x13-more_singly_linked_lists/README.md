@@ -15,3 +15,9 @@ linked lists project showing different use cases odf the lists
 - a function that adds a new node at the beginning of a listint_t
 - return the address of the new element or NULL if it failed
 
+4. **3-add_nodeint_end.c**
+- a function that adds a new node at the end of a listint_t list
+- returns the address of the new element, NULL if it failed
+
+5. **4-free_list.c**
+-  a function that frees a listint_t list
