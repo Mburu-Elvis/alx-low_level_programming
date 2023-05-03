@@ -36,3 +36,16 @@ linked lists project showing different use cases odf the lists
 
 9. **8-sum_listint.c**
 - a function that returns the sum of all the data (n) of a listint_t linked list
+
+10. **9-insert_nodeint.c**
+- a function that inserts a new node at a given position
+- returns the address of the new node, NULL if it failed
+
+11. **10-delete_nodeint.c**
+- a function that deletes the node at index ***index*** of a list
+- return 1 if success else -1
+
+12. **100-reverse_listint.c**
+- a function that reverses a listint_t list
+- returns pointer to the head of the reversed list
+
