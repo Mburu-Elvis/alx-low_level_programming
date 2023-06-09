@@ -12,3 +12,7 @@ The program will always have atleast 1 argument, the name of the program
 
 2. ## 1-args.c
 - a program that prints the number of arguments passed into it
+
+3. ## 2-args.c
+- a program that prints all the arguments it receives
+>- one argument is printed per line
