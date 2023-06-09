@@ -33,3 +33,14 @@ The program will always have atleast 1 argument, the name of the program
 >- if no number passed prints 0
 >- if one of the numbers are not digits, prints `Error` and returns 1
 
+6. ## 100-change.c
+- a program that prints the minimum number of coins to make change
+- ***requirements***
+>- number of arguments after the program name be exactly 1, else print `Error` and retrun 1
+>- if number is negative, print 0
+>- coin denomination
+>>- 25
+>>- 10
+>>- 5
+>>- 2
+>>- 1
