@@ -16,3 +16,13 @@ The program will always have atleast 1 argument, the name of the program
 3. ## 2-args.c
 - a program that prints all the arguments it receives
 >- one argument is printed per line
+
+4. ## 3-mul.c
+- a program that multiplies two numbers
+- ***Assumption***
+>- two numbers will be passed
+>- result can be stored in an integer
+- result
+>- if program receives two arguments print `Error`, return 1
+>- else
+>>- print the result of multiplication
