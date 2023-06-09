@@ -10,3 +10,5 @@ The program will always have atleast 1 argument, the name of the program
 1. ## 0-whatsmyname.c
 - a program that prints it's name
 
+2. ## 1-args.c
+- a program that prints the number of arguments passed into it
