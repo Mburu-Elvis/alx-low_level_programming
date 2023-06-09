@@ -26,3 +26,10 @@ The program will always have atleast 1 argument, the name of the program
 >- if program receives two arguments print `Error`, return 1
 >- else
 >>- print the result of multiplication
+
+5. ## 4-add.c
+- a program that adds positive numbers prints the result
+- conditions
+>- if no number passed prints 0
+>- if one of the numbers are not digits, prints `Error` and returns 1
+
