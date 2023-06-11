@@ -16,7 +16,7 @@ int _sqrt_recursion(int n)
 }
 
 /**
- * helper: helper function to square-rot function
+ * helper - helper function to square root function
  * @n: number to be evaluated
  *
  * Return: square root
