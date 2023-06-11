@@ -22,3 +22,7 @@ A base condition is required in order to break from the recursive function
 5. ## 4-pow_recursion.c
 - a function that returns the value of x raised to the power of y
 >- recursive function that returns the power of number
+
+6. ## 5-sqrt_recursion.c
+- a function that returns the natural square root of a number
+
