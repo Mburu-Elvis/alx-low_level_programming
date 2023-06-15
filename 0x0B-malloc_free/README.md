@@ -19,3 +19,6 @@ it's a programming tool for memory debugging, memory leak detection and profilin
 ## 1. 0-create_array.c
 - a function that creates an array of chars and initializes it with a specific char
 
+## 2. 1-strdup.c
+- a function that returns a pointer to anewly allocated space in memory, which <br>
+contains a copy of the string given as a parameter
