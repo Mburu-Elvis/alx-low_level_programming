@@ -22,3 +22,6 @@ it's a programming tool for memory debugging, memory leak detection and profilin
 
 ## 3. 2-str_concat.c
 - a function that concatenates two strings
+
+## 4. 3-alloc_grid.c
+- a function that returns a pointer to a 2-D array of integers
