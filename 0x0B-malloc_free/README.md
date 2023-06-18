@@ -25,3 +25,7 @@ it's a programming tool for memory debugging, memory leak detection and profilin
 
 ## 4. 3-alloc_grid.c
 - a function that returns a pointer to a 2-D array of integers
+
+## 5. 4-free_grid.c
+- a function (***free-grid***) that frees a 2-D grid previously created by ***alloc_grid*** function
+
