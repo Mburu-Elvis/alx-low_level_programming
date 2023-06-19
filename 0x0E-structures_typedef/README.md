@@ -13,4 +13,4 @@ a structure is a user defined data type that allows combining data items of diff
 >- `owner`, type `char *`
 
 ## 2. 1-init_dog.c
-- a function that initializes a variable of type `struct dog`
+- a function `init_dog` that initializes a variable of type `struct dog`
