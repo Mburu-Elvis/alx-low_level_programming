@@ -39,3 +39,7 @@ int main()
 
 1. ### 0-print_name.c
 - a function `print_name` that prints a name
+
+2. ### 1-array_iterator.c
+- a function `array_iterator` that executes a function given as a parameter on each element of an array
+
