@@ -8,7 +8,9 @@
 >- type_name (*variable)(types for the parameters in the function to be pointed to);
 
 **Example**<br>
+
 <code>
+
 void fun(int a)
 {
 	printf("%d\n", a);
@@ -21,6 +23,7 @@ int main()
 	(*func_ptr)(10);
 	return (0)
 }
+
 </code>
 
 - function pointers point to code not data
