@@ -29,11 +29,11 @@ int main(int argc, char **argv)
 		return (100);
 	}
 	func = get_op_func(op);
-        if (func == NULL)
-        {
-                printf("Error\n");
-                return (99);
-        }
+	if (func == NULL)
+	{
+		printf("Error\n");
+		return (99);
+	}
 	result = func(a, b);
 	printf("%d\n", result);
 	return (0);
