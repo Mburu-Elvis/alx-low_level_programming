@@ -19,3 +19,13 @@ they must have atleast one named parameter
 3. <bold>va_arg :</bold> - retrieve an argument
 4. <bold>va_end :</bold> - free a `va_list`
 5. <bold>va_copy :</bold> - copy contents of one `va_list` to another
+
+## Project Tasks
+
+---
+
+1. ### 0-sum_them_all.c
+- a function `sum_them_all` that returns the sum of all its parameters
+
+2. ### 1-print_numbers.c
+- a function `print_numbers` that prints numbers
