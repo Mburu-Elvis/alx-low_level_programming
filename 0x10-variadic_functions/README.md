@@ -29,3 +29,9 @@ they must have atleast one named parameter
 
 2. ### 1-print_numbers.c
 - a function `print_numbers` that prints numbers
+
+3. ### 2-print_strings.c
+- a function `print_strings` that prints strings
+
+4. ### 3.print_all.c
+- a function `print_all` that prints anything
