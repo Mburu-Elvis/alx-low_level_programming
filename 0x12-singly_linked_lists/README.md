@@ -19,3 +19,6 @@ singly linked list contains two parts :-
 
 ## 4. 3-add_node_end.c
 - a function `add_node_end` that adds a node at the end of the list `list_t`
+
+## 5. 4-free_list.c
+- a function that frees a `list_t` list
