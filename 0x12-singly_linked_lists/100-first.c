@@ -1,7 +1,12 @@
 #include <stdio.h>
+#include "lists.h"
 
-void printBeforeMain() __attribute__((constructor));
-void printBeforeMain()
+/**
+ * printBeforeMain - function that is executed before main
+ *
+ * Return: None
+ */
+void printBeforeMain(void)
 {
 	printf("You're beat! and yet, you must allow,\n");
 	printf("I bore my house upon my back!\n");
