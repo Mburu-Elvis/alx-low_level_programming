@@ -16,3 +16,6 @@ singly linked list contains two parts :-
 
 ## 3. 2-add_node.c
 - a function `add_node` that adds a new node at the beginning of a list `list_t`
+
+## 4. 3-add_node_end.c
+- a function `add_node_end` that adds a node at the end of the list `list_t`
