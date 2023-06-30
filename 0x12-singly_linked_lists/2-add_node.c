@@ -4,7 +4,7 @@
 /**
  * add_node - function tat adds a new node at the beginning of a list
  * @head: the head of the list;
- * str: the strig element of the new node
+ * @str: the strig element of the new node
  *
  * Return: address of the new element
  */
@@ -14,7 +14,10 @@ list_t *add_node(list_t **head, const char *str)
 	int i = 0;
 
 	if (str == NULL)
+	{
 		i = 0;
+		str = "(nil)";
+	}
 	else
 	{
 		while (str[i] != '\0')
