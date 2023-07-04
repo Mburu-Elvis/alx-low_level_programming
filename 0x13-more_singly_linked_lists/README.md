@@ -16,3 +16,5 @@ more projects on singly_linked_lists
 ## 4. 3_add_nodeint_end.c
 - a function `add_nodeint_end` that adds a node at the end of a list
 
+## 5. 4-free_listint.c
+- a function  `free_listint` that frees a list of type `listint_t`
