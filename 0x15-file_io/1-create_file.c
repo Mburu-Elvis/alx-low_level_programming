@@ -21,6 +21,7 @@ int create_file(const char *filename, char *text_content)
 	fd = fopen(filename, "w+");
 	if (fd == NULL)
 		return (-1);
+	fprintf(fd, "%s", text_content);
 	fclose(fd);
 	if (chmod(filename, S_IRUSR | S_IWUSR) != 0)
 		return (-1);
