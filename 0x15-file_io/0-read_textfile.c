@@ -27,6 +27,12 @@ ssize_t read_textfile(const char *filename, size_t letters)
 		return (0);
 	}
 	act_read = fread(buf, sizeof(char), letters, fd);
+	if (act_read <= 0)
+	{
+		fclose(fd);
+		free(buf);
+		return (0);
+	}
 	act_print = fwrite(buf, sizeof(char), act_read, stdout);
 	if (act_read != act_print)
 	{
