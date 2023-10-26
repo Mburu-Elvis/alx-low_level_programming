@@ -15,9 +15,5 @@ oclean:
 fclean:
 	$(RM) ~* $(NAME)
 	$(RM) $(OBJ)
-re:
-	$(RM) $(OBJ)
-	$(CC) -c main.c -o main.o
-	$(CC) -c school.c -o school.o
-	$(CC) $(OBJ) -o $(NAME)
+re: fclean all
 .PHONY: all clean oclean fclean re
