@@ -18,4 +18,5 @@ fclean:
 re:
 	$(RM) $(OBJ)
 	$(CC) -c $(SRC) -o $(OBJ)
+	$(CC) $(OBJ) -o $(NAME)
 .PHONY: all clean oclean fclean re
