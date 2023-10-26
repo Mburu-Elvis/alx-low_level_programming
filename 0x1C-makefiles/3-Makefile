@@ -2,7 +2,7 @@ CC=gcc
 SRC=main.c school.c
 OBJ=$(SRC:.c=.o)
 NAME=school
-RM=/bin/rm -f
+RM=/usr/bin/rm -f
 all:$(NAME)
 $(NAME):$(OBJ)
 	$(CC) $(OBJ) -o $(NAME)
@@ -17,6 +17,7 @@ fclean:
 	$(RM) $(OBJ)
 re:
 	$(RM) $(OBJ)
-	$(CC) -c $(SRC) -o $(OBJ)
+	$(CC) -c main.c -o main.o
+	$(CC) -c school.c -o school.o
 	$(CC) $(OBJ) -o $(NAME)
 .PHONY: all clean oclean fclean re
